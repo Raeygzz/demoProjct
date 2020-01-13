@@ -1,0 +1,83 @@
+import React, { Component } from "react";
+import { Text, View, ScrollView } from "react-native";
+
+import { NormalButton } from "../../components/layouts/Buttons";
+import RupiTextInput from "../../components/layouts/Forms/RupiTextInput";
+
+
+export default class Signup extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      emailAddress: "",
+      password: "",
+      confirmPassword: "",
+    };
+
+    // form refs for next input focusing
+    this.input2 = React.createRef();
+    this.input3 = React.createRef();
+  }
+
+  static navigationOptions = {
+    title: "Create a new Account"
+  };
+
+
+  createAccountSubmit = () => {
+    this.props.navigation.navigate('DashboardBar');
+  }
+
+
+  render() {
+    var globalStyle = require('../../components/styles/styles');
+
+    return (
+      <View style={[{ paddingHorizontal: 27, paddingVertical: 50 }, globalStyle.br24, globalStyle.purpleBg]}>
+
+        <ScrollView style={{ height: "100%" }} keyboardShouldPersistTaps='handled'>
+          <View style={{ height: "100%" }}>
+            <RupiTextInput
+              labelText="Email Address"
+              onChangeText={(emailAddress) => this.setState({ emailAddress })}
+              value={this.state.emailAddress}
+              returnKeyType={'next'}
+              autoFocus={true}
+              onSubmitEditing={() => this.input2.current.focus()}
+            >
+            </RupiTextInput>
+
+            <RupiTextInput
+              labelText="Password"
+              onChangeText={(password) => this.setState({ password })}
+              value={this.state.password}
+              hideText={true}
+              refs={this.input2}
+              onSubmitEditing={() => this.input3.current.focus()}
+            >
+            </RupiTextInput>
+
+            <RupiTextInput
+              labelText="Repeat Password"
+              onChangeText={(confirmPassword) => this.setState({ confirmPassword })}
+              value={this.state.confirmPassword}
+              // for type password
+              hideText={true}
+              refs={this.input3}
+              finalInput={true}
+            >
+            </RupiTextInput>
+
+            <View style={{ height: 50 }}>
+              <Text>&nbsp;</Text>
+            </View>
+
+            <NormalButton onItemPressed={this.createAccountSubmit} title="Create new Account" ></NormalButton>
+          </View>
+
+        </ScrollView>
+      </View>
+    );
+  }
+}
