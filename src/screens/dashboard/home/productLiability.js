@@ -7,7 +7,7 @@ import { NormalButton, InvertButton } from '../../../components/layouts/Buttons'
 import { productDefectsArr } from '../../../helper/constants/constants';
 
 
-export default class productLiability extends Component {
+export default class ProductLiability extends Component {
   constructor(props) {
     super(props);
 

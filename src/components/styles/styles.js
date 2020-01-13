@@ -91,6 +91,6 @@ module.exports = StyleSheet.create({
         color: "#FFF"
     },
     bgPrimary: {
-        backgroundColor: "#FFBD00"
+        backgroundColor: "#FFF"
     },
 });
