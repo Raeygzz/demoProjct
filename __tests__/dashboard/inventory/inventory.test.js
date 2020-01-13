@@ -6,5 +6,6 @@ import Inventory from '../../../src/screens/dashboard/inventory/inventory';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  renderer.create(<Inventory />);
+  const tree = renderer.create(<Inventory />).toJSON();
+  expect(tree).toMatchSnapshot();
 });

@@ -1,0 +1,700 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "paddingBottom": 39,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#10354b",
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": -1,
+        },
+        undefined,
+      ]
+    }
+  >
+    <BVLinearGradient
+      angle={135}
+      colors={
+        Array [
+          4288230089,
+          4283570823,
+          4279121480,
+          4280039002,
+        ]
+      }
+      endPoint={
+        Object {
+          "x": 1,
+          "y": 1,
+        }
+      }
+      locations={
+        Array [
+          0,
+          0.36087942,
+          0.8752376,
+          1,
+        ]
+      }
+      startPoint={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+          "height": 1534,
+          "opacity": 0.32,
+          "position": "relative",
+          "zIndex": -1,
+        }
+      }
+      useAngle={true}
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 44,
+          "justifyContent": "space-between",
+          "marginBottom": 20,
+          "marginTop": 55,
+          "paddingHorizontal": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      minimumFontScale={16}
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Apercu_Regular",
+            "fontSize": 16,
+          },
+          Array [
+            Object {
+              "fontSize": 20,
+              "lineHeight": 25,
+              "marginBottom": 24,
+              "opacity": 0.69,
+            },
+            Object {
+              "marginBottom": 0,
+              "opacity": 1,
+            },
+          ],
+        ]
+      }
+    >
+      Settings
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={false}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 20,
+              },
+              Object {
+                "color": "white",
+              },
+              Object {
+                "fontFamily": "simple-line-icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 20,
+              },
+              Object {
+                "color": "white",
+                "marginLeft": 20,
+              },
+              Object {
+                "fontFamily": "simple-line-icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "white",
+              "marginTop": 26,
+            },
+            Object {
+              "paddingBottom": 34,
+              "paddingHorizontal": 27,
+              "paddingTop": 50,
+            },
+            Object {
+              "borderTopLeftRadius": 24,
+              "borderTopRightRadius": 24,
+            },
+            Object {
+              "paddingBottom": 61,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 9,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "height": 80,
+                    "justifyContent": "center",
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "top": -86,
+                    "width": 80,
+                  },
+                  Object {
+                    "borderRadius": 1000,
+                  },
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/components/assets/images/demoUser.jpeg",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "height": undefined,
+                      "width": undefined,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+          </View>
+          <Text
+            minimumFontScale={16}
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "Apercu_Regular",
+                  "fontSize": 16,
+                },
+                Array [
+                  Object {
+                    "color": "#223741",
+                    "flex": 1,
+                    "fontFamily": "Apercu Bold",
+                    "fontSize": 36,
+                    "lineHeight": 45,
+                  },
+                ],
+              ]
+            }
+          >
+            Regan Timsina
+          </Text>
+        </View>
+        <Text
+          minimumFontScale={16}
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontFamily": "Apercu_Regular",
+                "fontSize": 16,
+              },
+              Object {
+                "color": "#223741",
+                "fontSize": 16,
+                "lineHeight": 29,
+                "marginVertical": 10,
+                "opacity": 0.7,
+              },
+            ]
+          }
+        >
+          SELECT THEME
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "column",
+              "justifyContent": "space-around",
+              "marginBottom": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginVertical": 12,
+                "paddingLeft": 40,
+                "position": "relative",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "bottom": 0,
+                  "color": "transparent",
+                  "fontSize": 0,
+                  "left": 0,
+                  "opacity": 0.5,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "zIndex": 9,
+                }
+              }
+            >
+              .
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "white",
+                    "borderRadius": 4,
+                    "borderWidth": 1,
+                    "height": 26,
+                    "justifyContent": "center",
+                    "left": 0,
+                    "marginRight": 20,
+                    "position": "absolute",
+                    "top": 0,
+                    "width": 26,
+                    "zIndex": 0,
+                  },
+                  null,
+                ]
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "Apercu Light",
+                }
+              }
+            >
+              Dark Theme
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "marginVertical": 12,
+                "paddingLeft": 40,
+                "position": "relative",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "bottom": 0,
+                  "color": "transparent",
+                  "fontSize": 0,
+                  "left": 0,
+                  "opacity": 0.5,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "zIndex": 9,
+                }
+              }
+            >
+              .
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "white",
+                    "borderRadius": 4,
+                    "borderWidth": 1,
+                    "height": 26,
+                    "justifyContent": "center",
+                    "left": 0,
+                    "marginRight": 20,
+                    "position": "absolute",
+                    "top": 0,
+                    "width": 26,
+                    "zIndex": 0,
+                  },
+                  null,
+                ]
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "Apercu Light",
+                }
+              }
+            >
+              Light Theme
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#ffbcbc",
+                  "borderColor": "red",
+                  "borderWidth": 1,
+                  "height": 100,
+                  "justifyContent": "center",
+                  "margin": 10,
+                  "width": 300,
+                },
+                Object {
+                  "width": "100%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#333333",
+                  "margin": 20,
+                }
+              }
+            >
+              TouchableNativeFeedback is not supported on this platform!
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#ffbcbc",
+                  "borderColor": "red",
+                  "borderWidth": 1,
+                  "height": 100,
+                  "justifyContent": "center",
+                  "margin": 10,
+                  "width": 300,
+                },
+                Object {
+                  "width": "100%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#333333",
+                  "margin": 20,
+                }
+              }
+            >
+              TouchableNativeFeedback is not supported on this platform!
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#171635",
+            },
+            Object {
+              "borderTopLeftRadius": 24,
+              "borderTopRightRadius": 24,
+            },
+            Object {
+              "marginTop": -37,
+              "paddingBottom": 34,
+              "paddingHorizontal": 20,
+              "paddingTop": 30,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "paddingBottom": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              minimumFontScale={16}
+              style={
+                Array [
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "Apercu_Regular",
+                    "fontSize": 16,
+                  },
+                  Array [
+                    Object {
+                      "fontFamily": "Apercu-Bold",
+                      "fontSize": 14,
+                      "lineHeight": 17,
+                      "opacity": 0.48,
+                    },
+                    Object {
+                      "marginBottom": 20,
+                    },
+                  ],
+                ]
+              }
+            >
+              USER PERSONAL NOTE
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "paddingBottom": 75,
+            }
+          }
+        >
+          <View>
+            <TextInput
+              allowFontScaling={true}
+              multiline={true}
+              onChangeText={[Function]}
+              rejectResponderTermination={true}
+              style={
+                Object {
+                  "backgroundColor": "darkgrey",
+                  "borderColor": "#FFCA2D",
+                  "borderWidth": 2,
+                  "color": "#FFCA2D",
+                  "fontSize": 16,
+                  "height": 320,
+                }
+              }
+              underlineColorAndroid="transparent"
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "right": -280,
+                "top": 5,
+                "width": "20%",
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#ffbcbc",
+                    "borderColor": "red",
+                    "borderWidth": 1,
+                    "height": 100,
+                    "justifyContent": "center",
+                    "margin": 10,
+                    "width": 300,
+                  },
+                  Object {
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#333333",
+                    "margin": 20,
+                  }
+                }
+              >
+                TouchableNativeFeedback is not supported on this platform!
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

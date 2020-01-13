@@ -6,5 +6,6 @@ import LaunchScreen from '../src/screens/welcome/launch';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  renderer.create(<LaunchScreen />);
+  const tree = renderer.create(<LaunchScreen />).toJSON();
+  expect(tree).toMatchSnapshot();
 });

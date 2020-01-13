@@ -6,5 +6,6 @@ import Login from '../src/screens/login/login';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  renderer.create(<Login />);
+  const tree = renderer.create(<Login />).toJSON();
+  expect(tree).toMatchSnapshot();
 });

@@ -6,5 +6,6 @@ import Home from '../../../src/screens/dashboard/home/home';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  renderer.create(<Home />);
+  const tree = renderer.create(<Home />).toJSON();
+  expect(tree).toMatchSnapshot();
 });

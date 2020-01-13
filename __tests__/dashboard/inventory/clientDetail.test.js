@@ -6,5 +6,6 @@ import ClientDetails from '../../../src/screens/dashboard/inventory/clientDetail
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  renderer.create(<ClientDetails />);
+  const tree = renderer.create(<ClientDetails />).toJSON();
+  expect(tree).toMatchSnapshot();
 });

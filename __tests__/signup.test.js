@@ -6,5 +6,6 @@ import Signup from '../src/screens/signup/signup';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  renderer.create(<Signup />);
+  const tree = renderer.create(<Signup />).toJSON();
+  expect(tree).toMatchSnapshot();
 });

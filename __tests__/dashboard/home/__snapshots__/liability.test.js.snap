@@ -1,0 +1,1016 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  transparent={false}
+  visible={true}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "paddingHorizontal": 27,
+          "paddingVertical": 50,
+        },
+        Object {
+          "borderTopLeftRadius": 24,
+          "borderTopRightRadius": 24,
+        },
+        Object {
+          "backgroundColor": "#171635",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#10354b",
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "zIndex": -1,
+          },
+          undefined,
+        ]
+      }
+    >
+      <BVLinearGradient
+        angle={135}
+        colors={
+          Array [
+            4288230089,
+            4283570823,
+            4279121480,
+            4280039002,
+          ]
+        }
+        endPoint={
+          Object {
+            "x": 1,
+            "y": 1,
+          }
+        }
+        locations={
+          Array [
+            0,
+            0.36087942,
+            0.8752376,
+            1,
+          ]
+        }
+        startPoint={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        style={
+          Object {
+            "flex": 1,
+            "height": 1534,
+            "opacity": 0.32,
+            "position": "relative",
+            "zIndex": -1,
+          }
+        }
+        useAngle={true}
+      />
+    </View>
+    <Text
+      minimumFontScale={16}
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Apercu_Regular",
+            "fontSize": 16,
+          },
+          Object {
+            "fontFamily": "Apercu-Bold",
+            "fontSize": 14,
+            "lineHeight": 17,
+            "marginBottom": 30,
+            "opacity": 0.48,
+          },
+        ]
+      }
+    >
+      LIABILITIES
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "backgroundColor": "#171635",
+          },
+          Object {
+            "borderTopLeftRadius": 24,
+            "borderTopRightRadius": 24,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flex": 1,
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 20,
+                  },
+                  Object {
+                    "color": "#FFBD00",
+                    "marginRight": 10,
+                  },
+                  Object {
+                    "fontFamily": "simple-line-icons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              minimumFontScale={16}
+              style={
+                Array [
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "Apercu_Regular",
+                    "fontSize": 16,
+                  },
+                  Array [
+                    Object {
+                      "color": "#FFBD00",
+                    },
+                    Object {
+                      "fontFamily": "Apercu-Light",
+                      "fontSize": 14,
+                      "lineHeight": 17,
+                    },
+                    Object {
+                      "fontFamily": "Apercu-Bold",
+                    },
+                  ],
+                ]
+              }
+            >
+              productLiability
+            </Text>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 100,
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 20,
+                  },
+                  Object {
+                    "color": "white",
+                    "marginRight": 10,
+                  },
+                  Object {
+                    "fontFamily": "simple-line-icons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              minimumFontScale={16}
+              style={
+                Array [
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "Apercu_Regular",
+                    "fontSize": 16,
+                  },
+                  Array [
+                    Object {
+                      "color": "white",
+                    },
+                    Object {
+                      "fontFamily": "Apercu-Light",
+                      "fontSize": 14,
+                      "lineHeight": 17,
+                    },
+                    null,
+                  ],
+                ]
+              }
+            >
+              clientLiability
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <RCTScrollView
+            contentContainerStyle={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View>
+              <View
+                style={
+                  Object {
+                    "paddingHorizontal": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                <RCTScrollView>
+                  <View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderBottomColor": "white",
+                            "borderBottomWidth": 1,
+                            "height": 68,
+                          },
+                          Object {
+                            "display": "flex",
+                            "justifyContent": "flex-end",
+                            "marginBottom": 20,
+                            "minHeight": 68,
+                            "overflow": "hidden",
+                            "paddingTop": 20,
+                            "position": "relative",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View>
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#71648E",
+                                "fontSize": 12,
+                              },
+                              Object {
+                                "position": "absolute",
+                                "right": 18,
+                                "top": 18,
+                              },
+                              Object {
+                                "fontFamily": "simple-line-icons",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                        <Text
+                          style={
+                            Object {
+                              "color": "white",
+                              "fontFamily": "Apercu_Regular",
+                              "fontSize": 14,
+                              "left": 0,
+                              "lineHeight": 17,
+                              "opacity": 0.68,
+                              "position": "absolute",
+                              "top": 16,
+                            }
+                          }
+                        >
+                          Product Name
+                        </Text>
+                        <Text
+                          minimumFontScale={16}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#fff",
+                                "fontFamily": "Apercu_Regular",
+                                "fontSize": 16,
+                              },
+                              Array [
+                                Object {
+                                  "bottom": 16,
+                                  "fontSize": 18,
+                                  "left": 0,
+                                  "position": "absolute",
+                                },
+                                Object {
+                                  "fontFamily": "Apercu-Medium",
+                                },
+                              ],
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "height": 50,
+                                "margin": 0,
+                                "marginLeft": -9,
+                                "opacity": 0,
+                                "padding": 0,
+                              },
+                              Object {
+                                "fontFamily": "Apercu-Bold",
+                              },
+                              Object {
+                                "borderBottomColor": "white",
+                                "borderBottomWidth": 1,
+                                "color": "white",
+                                "fontFamily": "Apercu Medium",
+                                "fontSize": 18,
+                                "padding": 0,
+                              },
+                              null,
+                              Object {
+                                "color": "white",
+                              },
+                            ]
+                          }
+                        >
+                          <RCTPicker
+                            items={
+                              Array [
+                                Object {
+                                  "label": "Select Product Name",
+                                  "textColor": undefined,
+                                  "value": null,
+                                },
+                                Object {
+                                  "label": "ABC",
+                                  "textColor": undefined,
+                                  "value": "ABC",
+                                },
+                                Object {
+                                  "label": "DEF",
+                                  "textColor": undefined,
+                                  "value": "DEF",
+                                },
+                                Object {
+                                  "label": "GHI",
+                                  "textColor": undefined,
+                                  "value": "GHI",
+                                },
+                                Object {
+                                  "label": "JKL",
+                                  "textColor": undefined,
+                                  "value": "JKL",
+                                },
+                                Object {
+                                  "label": "MNO",
+                                  "textColor": undefined,
+                                  "value": "MNO",
+                                },
+                              ]
+                            }
+                            onChange={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            selectedIndex={0}
+                            style={
+                              Array [
+                                Object {
+                                  "height": 216,
+                                },
+                                undefined,
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderBottomColor": "white",
+                            "borderBottomWidth": 1,
+                            "height": 68,
+                          },
+                          Object {
+                            "display": "flex",
+                            "justifyContent": "flex-end",
+                            "marginBottom": 20,
+                            "minHeight": 68,
+                            "overflow": "hidden",
+                            "paddingTop": 20,
+                            "position": "relative",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View>
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#71648E",
+                                "fontSize": 12,
+                              },
+                              Object {
+                                "position": "absolute",
+                                "right": 18,
+                                "top": 18,
+                              },
+                              Object {
+                                "fontFamily": "simple-line-icons",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                        <Text
+                          style={
+                            Object {
+                              "color": "white",
+                              "fontFamily": "Apercu_Regular",
+                              "fontSize": 14,
+                              "left": 0,
+                              "lineHeight": 17,
+                              "opacity": 0.68,
+                              "position": "absolute",
+                              "top": 16,
+                            }
+                          }
+                        >
+                          Product Defect
+                        </Text>
+                        <Text
+                          minimumFontScale={16}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#fff",
+                                "fontFamily": "Apercu_Regular",
+                                "fontSize": 16,
+                              },
+                              Array [
+                                Object {
+                                  "bottom": 16,
+                                  "fontSize": 18,
+                                  "left": 0,
+                                  "position": "absolute",
+                                },
+                                Object {
+                                  "fontFamily": "Apercu-Medium",
+                                },
+                              ],
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "height": 50,
+                                "margin": 0,
+                                "marginLeft": -9,
+                                "opacity": 0,
+                                "padding": 0,
+                              },
+                              Object {
+                                "fontFamily": "Apercu-Bold",
+                              },
+                              Object {
+                                "borderBottomColor": "white",
+                                "borderBottomWidth": 1,
+                                "color": "white",
+                                "fontFamily": "Apercu Medium",
+                                "fontSize": 18,
+                                "padding": 0,
+                              },
+                              null,
+                              Object {
+                                "color": "white",
+                              },
+                            ]
+                          }
+                        >
+                          <RCTPicker
+                            items={
+                              Array [
+                                Object {
+                                  "label": "Select Product Defect",
+                                  "textColor": undefined,
+                                  "value": null,
+                                },
+                                Object {
+                                  "label": "Money Pending To Receive",
+                                  "textColor": undefined,
+                                  "value": "Money Pending To Receive",
+                                },
+                                Object {
+                                  "label": "Money Pending To Pay",
+                                  "textColor": undefined,
+                                  "value": "Money Pending To Pay",
+                                },
+                                Object {
+                                  "label": "Product Quantity In Demand",
+                                  "textColor": undefined,
+                                  "value": "Product Quantity To Demand",
+                                },
+                                Object {
+                                  "label": "Product Defect",
+                                  "textColor": undefined,
+                                  "value": "Product Defect",
+                                },
+                                Object {
+                                  "label": "Product Scheme",
+                                  "textColor": undefined,
+                                  "value": "Product Scheme",
+                                },
+                              ]
+                            }
+                            onChange={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            selectedIndex={0}
+                            style={
+                              Array [
+                                Object {
+                                  "height": 216,
+                                },
+                                undefined,
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "display": "flex",
+                            "justifyContent": "flex-end",
+                            "marginBottom": 20,
+                            "minHeight": 68,
+                            "overflow": "hidden",
+                            "paddingTop": 20,
+                            "position": "relative",
+                          },
+                          undefined,
+                          Object {
+                            "paddingBottom": 0,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                            "fontFamily": "Apercu_Regular",
+                            "fontSize": 14,
+                            "left": 0,
+                            "lineHeight": 17,
+                            "opacity": 0.68,
+                            "position": "absolute",
+                            "top": 26,
+                          }
+                        }
+                      >
+                        Product Description
+                      </Text>
+                      <TextInput
+                        allowFontScaling={true}
+                        autoCapitalize="none"
+                        multiline={true}
+                        onBlur={[Function]}
+                        onChangeText={[Function]}
+                        onFocus={[Function]}
+                        onSubmitEditing={null}
+                        placeholderTextColor="rgba(255,255,255,0.7)"
+                        rejectResponderTermination={true}
+                        returnKeyType="done"
+                        selectionColor="#71648E"
+                        style={
+                          Array [
+                            Object {
+                              "borderBottomColor": "white",
+                              "borderBottomWidth": 1,
+                              "color": "white",
+                              "fontFamily": "Apercu Medium",
+                              "fontSize": 18,
+                              "padding": 0,
+                            },
+                            null,
+                            undefined,
+                            Object {
+                              "borderBottomColor": "white",
+                              "height": 37,
+                              "lineHeight": 12,
+                            },
+                            null,
+                          ]
+                        }
+                        underlineColorAndroid="transparent"
+                        value=""
+                      />
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "marginTop": 30,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "alignItems": "center",
+                              "backgroundColor": "#ffbcbc",
+                              "borderColor": "red",
+                              "borderWidth": 1,
+                              "height": 100,
+                              "justifyContent": "center",
+                              "margin": 10,
+                              "width": 300,
+                            },
+                            Object {
+                              "width": "100%",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          style={
+                            Object {
+                              "color": "#333333",
+                              "margin": 20,
+                            }
+                          }
+                        >
+                          TouchableNativeFeedback is not supported on this platform!
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "alignItems": "center",
+                              "backgroundColor": "#ffbcbc",
+                              "borderColor": "red",
+                              "borderWidth": 1,
+                              "height": 100,
+                              "justifyContent": "center",
+                              "margin": 10,
+                              "width": 300,
+                            },
+                            Object {
+                              "width": "100%",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          style={
+                            Object {
+                              "color": "#333333",
+                              "margin": 20,
+                            }
+                          }
+                        >
+                          TouchableNativeFeedback is not supported on this platform!
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "backgroundColor": "red",
+                          "marginTop": 30,
+                          "paddingHorizontal": 20,
+                          "paddingVertical": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                            "fontWeight": "bold",
+                            "marginBottom": 20,
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        Cleansing Milk
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Money Pending To Pay :
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                          }
+                        }
+                      >
+                             Rs. 20000 is to be paid to the vendor. Is to be paid to the vendor. Is to be paid to the vendor. Is to be paid to the vendor.
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "backgroundColor": "green",
+                          "marginVertical": 20,
+                          "paddingHorizontal": 20,
+                          "paddingVertical": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                            "fontWeight": "bold",
+                            "marginBottom": 20,
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        Ayur Cream
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Money Pending To Receive :
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                          }
+                        }
+                      >
+                             Rs. 20000 is to be paid to the vendor. Is to be paid to the vendor. Is to be paid to the vendor. Is to be paid to the vendor.
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "backgroundColor": "lightgreen",
+                          "marginVertical": 20,
+                          "paddingHorizontal": 20,
+                          "paddingVertical": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                            "fontWeight": "bold",
+                            "marginBottom": 20,
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        Acnamouist Cream
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Product Quantity To Demand :
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                          }
+                        }
+                      >
+                             Rs. 20000 is to be paid to the vendor. Is to be paid to the vendor. Is to be paid to the vendor. Is to be paid to the vendor.
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "backgroundColor": "pink",
+                          "marginVertical": 20,
+                          "paddingHorizontal": 20,
+                          "paddingVertical": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                            "fontWeight": "bold",
+                            "marginBottom": 20,
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        Vaseline Cream 
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Product Defect :
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                          }
+                        }
+                      >
+                             Rs. 20000 is to be paid to the vendor. Is to be paid to the vendor. Is to be paid to the vendor. Is to be paid to the vendor.
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "backgroundColor": "darkgrey",
+                          "marginVertical": 20,
+                          "paddingHorizontal": 20,
+                          "paddingVertical": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                            "fontWeight": "bold",
+                            "marginBottom": 20,
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        Sanitary Pad
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Product Quantity To Demand :
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                          }
+                        }
+                      >
+                             Rs. 20000 is to be paid to the vendor. Is to be paid to the vendor. Is to be paid to the vendor. Is to be paid to the vendor.
+                      </Text>
+                    </View>
+                  </View>
+                </RCTScrollView>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

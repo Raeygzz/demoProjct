@@ -6,5 +6,6 @@ import Liability from '../../../src/screens/dashboard/home/liability';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  renderer.create(<Liability />);
+  const tree = renderer.create(<Liability />).toJSON();
+  expect(tree).toMatchSnapshot();
 });

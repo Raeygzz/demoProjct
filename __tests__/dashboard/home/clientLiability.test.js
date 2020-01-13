@@ -6,5 +6,6 @@ import ClientLiability from '../../../src/screens/dashboard/home/clientLiability
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  renderer.create(<ClientLiability />);
+  const tree = renderer.create(<ClientLiability />).toJSON();
+  expect(tree).toMatchSnapshot();
 });

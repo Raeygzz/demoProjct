@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { Text, View, ScrollView } from "react-native";
+import { Text, View, ScrollView, TouchableOpacity } from "react-native";
 
+import RupiText from "../../components/layouts/RupiText";
 import { NormalButton } from "../../components/layouts/Buttons";
 import RupiTextInput from "../../components/layouts/Forms/RupiTextInput";
 
@@ -69,9 +70,19 @@ export default class Signup extends Component {
             >
             </RupiTextInput>
 
-            <View style={{ height: 50 }}>
-              <Text>&nbsp;</Text>
-            </View>
+            <View style={{ height: 20 }}>
+                <Text>&nbsp;</Text>
+              </View>
+
+
+              <TouchableOpacity onPress={this.uploadImageHandler} style={[{ position:"relative", height: 150, width: 150, borderColor: "white", borderWidth: 1, borderStyle: "dashed", alignItems: "center", justifyContent: "center" }, globalStyle.rounded]}>
+                <RupiText text="Upload User Image" style={{ color: "yellow" }}></RupiText>
+              </TouchableOpacity>
+
+
+              <View style={{ height: 60 }}>
+                <Text>&nbsp;</Text>
+              </View>
 
             <NormalButton onItemPressed={this.createAccountSubmit} title="Create new Account" ></NormalButton>
           </View>

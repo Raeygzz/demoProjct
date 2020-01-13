@@ -6,5 +6,6 @@ import OrderRecords from '../../../src/screens/dashboard/orderRecord/orderRecord
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  renderer.create(<OrderRecords />);
+  const tree = renderer.create(<OrderRecords />).toJSON();
+  expect(tree).toMatchSnapshot();
 });

@@ -6,5 +6,6 @@ import Product from '../../../src/screens/dashboard/inventory/product';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  renderer.create(<Product />);
+  const tree = renderer.create(<Product />).toJSON();
+  expect(tree).toMatchSnapshot();
 });

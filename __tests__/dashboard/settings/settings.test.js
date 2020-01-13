@@ -6,5 +6,6 @@ import Settings from '../../../src/screens/dashboard/settings/settings';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  renderer.create(<Settings />);
+  const tree = renderer.create(<Settings />).toJSON();
+  expect(tree).toMatchSnapshot();
 });

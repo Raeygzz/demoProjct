@@ -6,5 +6,6 @@ import ProductLiability from '../../../src/screens/dashboard/home/productLiabili
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  renderer.create(<ProductLiability />);
+  const tree = renderer.create(<ProductLiability />).toJSON();
+  expect(tree).toMatchSnapshot();
 });
