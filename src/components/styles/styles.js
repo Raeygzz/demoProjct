@@ -1,11 +1,9 @@
 'use strict';
 
-var React = require('react-native');
-var { StyleSheet } = React;
+import { Platform, StyleSheet } from "react-native";
 
 const yellow = "#FFBD00";
 const purple = "#171635";
-
 
 module.exports = StyleSheet.create({
 
@@ -46,32 +44,33 @@ module.exports = StyleSheet.create({
         borderRadius: 24
     },
     normal: {
-        fontFamily: "Apercu_Regular"
+        fontFamily: Platform.OS === "ios" ? "Apercu-Regular" : "Apercu_Regular",
+
     },
     bold: {
-        fontFamily: "Apercu Bold"
+        fontFamily: Platform.OS === "ios" ? "Apercu-Bold" : "Apercu Bold"
     },
     thin: {
-        fontFamily: "Apercu Light"
+        fontFamily: Platform.OS === "ios" ? "Apercu-Light" : "Apercu Light"
     },
     f500: {
-        fontFamily: "Apercu Medium"
+        fontFamily: Platform.OS === "ios" ? "Apercu-Medium" : "Apercu Medium"
     },
     formHeading: {
-        fontFamily: "Apercu Bold",
+        fontFamily: Platform.OS === "ios" ? "Apercu-Bold" : "Apercu Bold",
         fontSize: 14,
         lineHeight: 17,
         marginBottom: 30,
         opacity: 0.48
     },
     formHeadingNoMarBot: {
-        fontFamily: "Apercu Bold",
+        fontFamily: Platform.OS === "ios" ? "Apercu-Bold" : "Apercu Bold",
         fontSize: 14,
         lineHeight: 17,
         opacity: 0.48
     },
     formGroupTitle: {
-        fontFamily: "Apercu Light",
+        fontFamily: Platform.OS === "ios" ? "Apercu-Light" : "Apercu Light",
         fontSize: 14,
         lineHeight: 17
     },
