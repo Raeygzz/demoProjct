@@ -7,7 +7,7 @@ import { NormalButton, InvertButton } from '../../../components/layouts/Buttons'
 import { clientIssueArr } from '../../../helper/constants/constants';
 
 
-export default class clientLiability extends Component {
+export default class ClientLiability extends Component {
   constructor(props) {
     super(props);
 

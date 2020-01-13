@@ -6,7 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest",
+    "test": "jest --no-cache",
     "lint": "eslint ."
   },
   "dependencies": {
@@ -37,6 +37,10 @@
   },
   "jest": {
     "preset": "react-native",
+    "setupFiles": [
+      "./__mocks__/react-native-reanimated.js",
+      "./node_modules/react-native-gesture-handler/jestSetup.js"
+    ],
     "transformIgnorePatterns": []
   }
 }
