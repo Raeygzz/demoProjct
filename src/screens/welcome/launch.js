@@ -38,14 +38,14 @@ export default class LaunchScreen extends Component {
           <View style={{ alignItems: "center" }}>
             {/* <RupiText text="Wonder Soft Inventory Management System" style={[{ fontSize: 20, lineHeight: 25, maxWidth: 252 }, globalStyle.textCenter]}></RupiText> */}
 
-            <Image style={{ position: "absolute", bottom: 0, left: 0, right: 0, width: "100%" }} source={require("../../components/assets/images/welcomeImage.png")} />
+            {/* <Image style={{ position: "absolute", bottom: 0, left: 0, right: 0, width: "100%" }} source={require("../../components/assets/images/welcomeImage.png")} /> */}
           </View>
 
         </View>
 
         <View style={{ flex: 1, justifyContent: "flex-end", paddingBottom: 50, zIndex: 0, position: "relative" }}>
 
-          <Image style={{ position: "absolute", bottom: 0, left: 0, right: 0, width: "100%" }} source={require("../../components/assets/images/splash_background.png")} />
+          {/* <Image style={{ position: "absolute", bottom: 0, left: 0, right: 0, width: "100%" }} source={require("../../components/assets/images/splash_background.png")} /> */}
 
           <View>
             <View style={{ marginBottom: 26, paddingHorizontal: 27 }}>

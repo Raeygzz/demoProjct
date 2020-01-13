@@ -3,8 +3,8 @@
 var React = require('react-native');
 var { StyleSheet } = React;
 
-const yellow = "#FFBD00";
-const purple = "#171635";
+const yellow = "darkgrey";
+const purple = "#fff";
 
 
 module.exports = StyleSheet.create({
