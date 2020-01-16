@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`<Signup /> renders correctly using (jest)renderer, (jest)expect & (jest)toMatchSnapshot 1`] = `
 <View
   style={
     Array [

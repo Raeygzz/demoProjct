@@ -2,7 +2,6 @@ import React from 'react';
 import 'react-native';
 
 import Login from '../src/screens/login/login';
-import { NormalButton } from '../src/components/layouts/Buttons';
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
@@ -25,22 +24,6 @@ describe('<Login />', () => {
     const tree = renderer.create(<Login />).toJSON();
     expect(tree).toMatchSnapshot();
   });
-
-
-  // it('renders the title with enzyme using (enzyme)shallow,contains,to.equal', () => {
-  //   const wrapper = shallow(<Login navigation={navigation} />);
-  //   expect(wrapper.length).toEqual(1);
-  //   expect(wrapper.contains(<NormalButton onItemPressed={this.loginSubmit} title="Log in"></NormalButton>)).toEqual(true);
-  // });
-
-
-
-  // it('renders the NormalButton title using (enzyme)shallow, (enzyme)expect, (enzyme)contains & (jest)toEqual', () => {
-  //   const wrapper = shallow(<Login />);
-  //   expect(wrapper.length).toEqual(1);
-  //   expect(wrapper.contains(<NormalButton onItemPressed={this.loginSubmit} title="Log in"></NormalButton>)).toEqual(true);
-  // });
-
 
 
   it('renders globalStyle, Text, View, ScrollView, NormalButton & RupiTextInput components using (enzyme)expect, (enzyme)find, (enzyme)exists and (jest)toEqual', () => {
@@ -68,5 +51,12 @@ describe('<Login />', () => {
     expect(spy.mock.calls).toHaveLength(1);
     expect(navigation.navigate).toHaveBeenCalledWith("DashboardBar");
   });
+
+
+  it('test navigation title using (enzyme)shallow,expect,exists & (jest)toBe,toBeTruthy', () => {
+    const wrapper = shallow(<Login />);
+    expect(Login.navigationOptions.title).toBe('Login');
+    expect(wrapper.find('navigationOptions')).toBeTruthy();
+  })
 
 })
