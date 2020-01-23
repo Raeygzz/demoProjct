@@ -3,19 +3,19 @@ import 'react-native';
 
 import ClientLiability from '../../../src/screens/dashboard/home/clientLiability';
 
-import clientIssueArr from '../../../src/helper/constants/constants';
-
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
-
-
-import sinon from 'sinon';
 
 
 import Enzyme from 'enzyme';
 import { shallow, mount, render } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16';
 Enzyme.configure({ adapter: new Adapter() });
+
+
+const navigation = {
+  navigate: jest.fn()
+}
 
 
 describe('<ClientLiability />', () => {
@@ -25,7 +25,8 @@ describe('<ClientLiability />', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('renders View, Text, StyleSheet, ScrollView, RupiSelect, NormalButton, InvertButton, RupiTextInput & clientIssueArr components using (enzyme)shallow,find (chai)expect,to.have,lengthOf', () => {
+
+  it('renders View, Text, StyleSheet, ScrollView, RupiSelect, NormalButton, InvertButton, RupiTextInput & clientIssueArr components using (enzyme)shallow,expect,find,exists (jest)toEqual,toBeDefined,toBeTruthy,', () => {
     const wrapper = shallow(<ClientLiability />);
     expect(wrapper.find('View').exists()).toEqual(true);
     expect(wrapper.find('Text').exists()).toEqual(true);
@@ -40,7 +41,7 @@ describe('<ClientLiability />', () => {
   });
 
 
-  it('test state and state value using (enzyme)shallow,state,instance,expect & (jest)toEqual,toBeTruthy,toBeDefined,toBe', () => {
+  it('test state and state value using (enzyme)shallow,state,expect & (jest)toEqual,toBeTruthy,toBeDefined,toBe', () => {
     const wrapper = shallow(<ClientLiability />);
     expect(wrapper.state()).toBeTruthy();
     expect(wrapper.state()).toBeDefined();
@@ -60,5 +61,32 @@ describe('<ClientLiability />', () => {
       { id: 5, value: 'Pukar Ojha', label: 'Pukar Ojha' }
     ]);
   })
+
+  it('calls the clientLiabilityHandler method & test onPress functionality along with tests this.props.navigation.navigate using (enzyme)shallow,instance,find,first,props,expect,exists, (React)forceUpdate, (jest)jest.spyOn,toHaveLength,toHaveBeenCalledWith', () => {
+    const wrapper = shallow(<ClientLiability navigation={navigation} />);
+    const instance = wrapper.instance();
+    const spy = jest.spyOn(instance, 'clientLiabilityHandler');
+
+    instance.forceUpdate();
+    wrapper.find('NormalButton').first().props().onItemPressed();
+
+    expect(wrapper.exists());
+    expect(spy.mock.calls).toHaveLength(1);
+    expect(navigation.navigate).toHaveBeenCalledWith("Home");
+  });
+
+
+  it('calls the clientLiabilityCancel method & test onPress functionality along with tests this.props.navigation.navigate using (enzyme)shallow,instance,find,first,props,expect,exists, (React)forceUpdate, (jest)jest.spyOn,toHaveLength,toHaveBeenCalledWith', () => {
+    const wrapper = shallow(<ClientLiability navigation={navigation} />);
+    const instance = wrapper.instance();
+    const spy = jest.spyOn(instance, 'clientLiabilityCancel');
+
+    instance.forceUpdate();
+    wrapper.find('InvertButton').first().props().onInvertItemPressed();
+
+    expect(wrapper.exists());
+    expect(spy.mock.calls).toHaveLength(1);
+    expect(navigation.navigate).toHaveBeenCalledWith("Home");
+  });
 
 })
