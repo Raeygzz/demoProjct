@@ -115,7 +115,7 @@ export default class Settings extends Component {
             {/* ================ USER PERSONAL NOTE ======================  */}
             <View style={{ paddingBottom: 20 }}>
               <View style={{ flexDirection: "row", alignItems: "center", justifyContent: "space-between" }}>
-                <RupiText text="USER PERSONAL NOTE" style={[globalStyle.formHeadingNoMarBot, { marginBottom: 20 }]}> </RupiText>
+                <RupiText text="USER PERSONAL NOTE" style={[globalStyle.formHeadingNoMarBot, { marginBottom: 20 }]}></RupiText>
               </View>
 
             </View>
