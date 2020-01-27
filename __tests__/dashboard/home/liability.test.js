@@ -47,6 +47,16 @@ describe('<Liability', () => {
   })
 
 
+  it('test the changes in boolean value of clientLiability & productLiability using (enzyme)shallow,expect,state,setState,instance & (jest)toEqual,toBe', () => {
+    const wrapper = shallow(<Liability />);
+    expect(wrapper.length).toEqual(1);
+    expect(wrapper.state('productLiability')).toBe(true);
+    wrapper.setState({ productLiability: false, clientLiability: true });
+    expect(wrapper.state().clientLiability).toEqual(true);
+    expect(wrapper.instance().state.productLiability).toEqual(false);
+  });
+
+
   it('renders the RupiText text using (enzyme)shallow,expect,contains & (jest)toEqual', () => {
     const wrapper = shallow(<Liability />);
     expect(wrapper.length).toEqual(1);
@@ -65,16 +75,6 @@ describe('<Liability', () => {
     const wrapper = shallow(<Liability />);
     expect(wrapper.length).toEqual(1);
     expect(wrapper.contains(<RupiText text="clientLiability" style={[{ color: wrapper.instance().state.clientLiability ? "#FFBD00" : "white", }, globalStyle.formGroupTitle, wrapper.state('clientLiability') ? globalStyle.bold : null]}></RupiText>)).toEqual(true);
-  });
-
-
-  it('should render the Notification component if state.error is true', () => {
-    const wrapper = shallow(<Liability />);
-    expect(wrapper.length).toEqual(1);
-    expect(wrapper.state('productLiability')).toBe(true);
-    wrapper.setState({ productLiability: false, clientLiability: true });
-    expect(wrapper.state().clientLiability).toEqual(true);
-    expect(wrapper.instance().state.productLiability).toEqual(false);
   });
 
 })

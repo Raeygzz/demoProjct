@@ -83,7 +83,7 @@ export default class Settings extends Component {
                 />
               </TouchableOpacity>
 
-              <RupiText text="Regan Timsina" style={[styles.userName]}></RupiText>
+              <RupiText text="Regan Timsina" style={{ fontSize: 36, lineHeight: 45, fontFamily: "Apercu Bold", color: "#223741", flex: 1 }}></RupiText>
             </View>
 
             <RupiText text="SELECT THEME" style={{ fontSize: 16, lineHeight: 29, marginVertical: 10, color: "#223741", opacity: 0.7 }} ></RupiText>
@@ -144,12 +144,8 @@ export default class Settings extends Component {
 }
 
 
-const styles = StyleSheet.create({
-  userName: {
-    fontSize: 36,
-    lineHeight: 45,
-    fontFamily: "Apercu Bold",
-    color: "#223741",
-    flex: 1
-  }
-});
+// const styles = StyleSheet.create({
+//   userName: {
+    
+//   }
+// });

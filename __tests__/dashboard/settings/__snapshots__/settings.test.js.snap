@@ -310,15 +310,13 @@ exports[`<Settings /> renders correctly 1`] = `
                   "fontFamily": "Apercu_Regular",
                   "fontSize": 16,
                 },
-                Array [
-                  Object {
-                    "color": "#223741",
-                    "flex": 1,
-                    "fontFamily": "Apercu Bold",
-                    "fontSize": 36,
-                    "lineHeight": 45,
-                  },
-                ],
+                Object {
+                  "color": "#223741",
+                  "flex": 1,
+                  "fontFamily": "Apercu Bold",
+                  "fontSize": 36,
+                  "lineHeight": 45,
+                },
               ]
             }
           >
