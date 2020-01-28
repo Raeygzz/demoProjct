@@ -34,7 +34,6 @@ describe('<Settings />', () => {
     expect(wrapper.find('View').exists()).toEqual(true);
     expect(wrapper.find('ImageBackground').exists()).toEqual(true);
     expect(wrapper.find('TouchableOpacity').exists()).toEqual(true);
-    expect(wrapper.find('StyleSheet')).toBeTruthy();
     expect(wrapper.find('ScrollView')).toBeTruthy();
     expect(wrapper.find('TextInput').exists()).toEqual(true);
     expect(wrapper.find('globalStyle')).toBeDefined();

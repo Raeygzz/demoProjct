@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { View, ImageBackground, TouchableOpacity, StyleSheet, ScrollView, TextInput } from "react-native";
+import { View, ImageBackground, TouchableOpacity, ScrollView, TextInput } from "react-native";
 
 import RupiText from "../../../components/layouts/RupiText";
 import BaseGradient from "../../../components/layouts/baseGradient";
