@@ -2485,7 +2485,7 @@ exports[`<Home /> renders correctly 1`] = `
                   }
                 >
                   <RNSVGTSpan
-                    content="$47.50k"
+                    content="$25.20k"
                     dx={Array []}
                     dy={Array []}
                     fill={
@@ -2593,7 +2593,7 @@ exports[`<Home /> renders correctly 1`] = `
                   }
                 >
                   <RNSVGTSpan
-                    content="$56.04k"
+                    content="$33.61k"
                     dx={Array []}
                     dy={Array []}
                     fill={
@@ -2701,7 +2701,7 @@ exports[`<Home /> renders correctly 1`] = `
                   }
                 >
                   <RNSVGTSpan
-                    content="$64.58k"
+                    content="$42.02k"
                     dx={Array []}
                     dy={Array []}
                     fill={
@@ -2809,7 +2809,7 @@ exports[`<Home /> renders correctly 1`] = `
                   }
                 >
                   <RNSVGTSpan
-                    content="$73.12k"
+                    content="$50.43k"
                     dx={Array []}
                     dy={Array []}
                     fill={
@@ -2917,7 +2917,7 @@ exports[`<Home /> renders correctly 1`] = `
                   }
                 >
                   <RNSVGTSpan
-                    content="$81.66k"
+                    content="$58.84k"
                     dx={Array []}
                     dy={Array []}
                     fill={
@@ -4097,7 +4097,7 @@ exports[`<Home /> renders correctly 1`] = `
                 y={0}
               >
                 <RNSVGPath
-                  d="M64,16 Q 92.5, 16, 121, 67.5 Q 149.5, 119, 178, 119 Q 206.5, 119, 235, 139 Q 263.5, 159, 292, 159 Q 320.75, 159, 349.5, 161 Q 378.25, 163, 407, 163 Q 435.5, 163, 464, 133.5 Q 492.5, 104, 521, 104 Q 549.5, 104, 578, 142.5 Q 606.5, 181, 635, 181"
+                  d="M64,170 Q 92.5, 170, 121, 152 Q 149.5, 134, 178, 134 Q 206.5, 134, 235, 83.5 Q 263.5, 33, 292, 33 Q 320.75, 33, 349.5, 42.5 Q 378.25, 52, 407, 52 Q 435.5, 52, 464, 116.5 Q 492.5, 181, 521, 181 Q 549.5, 181, 578, 98.5 Q 606.5, 16, 635, 16"
                   fill={null}
                   fillOpacity={1}
                   fillRule={1}
@@ -4186,7 +4186,7 @@ exports[`<Home /> renders correctly 1`] = `
                 y={0}
               >
                 <RNSVGPath
-                  d="M64,16 Q 92.5, 16, 121, 67.5 Q 149.5, 119, 178, 119 Q 206.5, 119, 235, 139 Q 263.5, 159, 292, 159 Q 320.75, 159, 349.5, 161 Q 378.25, 163, 407, 163 Q 435.5, 163, 464, 133.5 Q 492.5, 104, 521, 104 Q 549.5, 104, 578, 142.5 Q 606.5, 181, 635, 181 L635.6666666666666,181 L64,181 Z"
+                  d="M64,170 Q 92.5, 170, 121, 152 Q 149.5, 134, 178, 134 Q 206.5, 134, 235, 83.5 Q 263.5, 33, 292, 33 Q 320.75, 33, 349.5, 42.5 Q 378.25, 52, 407, 52 Q 435.5, 52, 464, 116.5 Q 492.5, 181, 521, 181 Q 549.5, 181, 578, 98.5 Q 606.5, 16, 635, 16 L635.6666666666666,181 L64,181 Z"
                   fill={
                     Array [
                       1,
@@ -4275,7 +4275,7 @@ exports[`<Home /> renders correctly 1`] = `
               >
                 <RNSVGCircle
                   cx={64}
-                  cy={16}
+                  cy={170.01721839212863}
                   fill={
                     Array [
                       0,
@@ -4336,529 +4336,529 @@ exports[`<Home /> renders correctly 1`] = `
                 />
                 <RNSVGCircle
                   cx={64}
+                  cy={170.01721839212863}
+                  fill={
+                    Array [
+                      0,
+                      4294967295,
+                    ]
+                  }
+                  fillOpacity={0}
+                  fillRule={1}
+                  matrix={
+                    Array [
+                      1,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                    ]
+                  }
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  opacity={1}
+                  originX={0}
+                  originY={0}
+                  propList={
+                    Array [
+                      "fill",
+                      "fillOpacity",
+                    ]
+                  }
+                  r="14"
+                  responsible={true}
+                  rotation={0}
+                  scaleX={1}
+                  scaleY={1}
+                  skewX={0}
+                  skewY={0}
+                  stroke={null}
+                  strokeDasharray={null}
+                  strokeDashoffset={null}
+                  strokeLinecap={0}
+                  strokeLinejoin={0}
+                  strokeMiterlimit={4}
+                  strokeOpacity={1}
+                  strokeWidth={1}
+                  vectorEffect={0}
+                  x={0}
+                  y={0}
+                />
+                <RNSVGCircle
+                  cx={178.33333333333331}
+                  cy={134.77188302092182}
+                  fill={
+                    Array [
+                      0,
+                      3875536895,
+                    ]
+                  }
+                  fillOpacity={1}
+                  fillRule={1}
+                  matrix={
+                    Array [
+                      1,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                    ]
+                  }
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  opacity={1}
+                  originX={0}
+                  originY={0}
+                  propList={
+                    Array [
+                      "fill",
+                      "stroke",
+                      "strokeWidth",
+                    ]
+                  }
+                  r="6"
+                  responsible={true}
+                  rotation={0}
+                  scaleX={1}
+                  scaleY={1}
+                  skewX={0}
+                  skewY={0}
+                  stroke={
+                    Array [
+                      0,
+                      4294944550,
+                    ]
+                  }
+                  strokeDasharray={null}
+                  strokeDashoffset={null}
+                  strokeLinecap={0}
+                  strokeLinejoin={0}
+                  strokeMiterlimit={4}
+                  strokeOpacity={1}
+                  strokeWidth="2"
+                  vectorEffect={0}
+                  x={0}
+                  y={0}
+                />
+                <RNSVGCircle
+                  cx={178.33333333333331}
+                  cy={134.77188302092182}
+                  fill={
+                    Array [
+                      0,
+                      4294967295,
+                    ]
+                  }
+                  fillOpacity={0}
+                  fillRule={1}
+                  matrix={
+                    Array [
+                      1,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                    ]
+                  }
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  opacity={1}
+                  originX={0}
+                  originY={0}
+                  propList={
+                    Array [
+                      "fill",
+                      "fillOpacity",
+                    ]
+                  }
+                  r="14"
+                  responsible={true}
+                  rotation={0}
+                  scaleX={1}
+                  scaleY={1}
+                  skewX={0}
+                  skewY={0}
+                  stroke={null}
+                  strokeDasharray={null}
+                  strokeDashoffset={null}
+                  strokeLinecap={0}
+                  strokeLinejoin={0}
+                  strokeMiterlimit={4}
+                  strokeOpacity={1}
+                  strokeWidth={1}
+                  vectorEffect={0}
+                  x={0}
+                  y={0}
+                />
+                <RNSVGCircle
+                  cx={292.66666666666663}
+                  cy={33.883142203055044}
+                  fill={
+                    Array [
+                      0,
+                      3875536895,
+                    ]
+                  }
+                  fillOpacity={1}
+                  fillRule={1}
+                  matrix={
+                    Array [
+                      1,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                    ]
+                  }
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  opacity={1}
+                  originX={0}
+                  originY={0}
+                  propList={
+                    Array [
+                      "fill",
+                      "stroke",
+                      "strokeWidth",
+                    ]
+                  }
+                  r="6"
+                  responsible={true}
+                  rotation={0}
+                  scaleX={1}
+                  scaleY={1}
+                  skewX={0}
+                  skewY={0}
+                  stroke={
+                    Array [
+                      0,
+                      4294944550,
+                    ]
+                  }
+                  strokeDasharray={null}
+                  strokeDashoffset={null}
+                  strokeLinecap={0}
+                  strokeLinejoin={0}
+                  strokeMiterlimit={4}
+                  strokeOpacity={1}
+                  strokeWidth="2"
+                  vectorEffect={0}
+                  x={0}
+                  y={0}
+                />
+                <RNSVGCircle
+                  cx={292.66666666666663}
+                  cy={33.883142203055044}
+                  fill={
+                    Array [
+                      0,
+                      4294967295,
+                    ]
+                  }
+                  fillOpacity={0}
+                  fillRule={1}
+                  matrix={
+                    Array [
+                      1,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                    ]
+                  }
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  opacity={1}
+                  originX={0}
+                  originY={0}
+                  propList={
+                    Array [
+                      "fill",
+                      "fillOpacity",
+                    ]
+                  }
+                  r="14"
+                  responsible={true}
+                  rotation={0}
+                  scaleX={1}
+                  scaleY={1}
+                  skewX={0}
+                  skewY={0}
+                  stroke={null}
+                  strokeDasharray={null}
+                  strokeDashoffset={null}
+                  strokeLinecap={0}
+                  strokeLinejoin={0}
+                  strokeMiterlimit={4}
+                  strokeOpacity={1}
+                  strokeWidth={1}
+                  vectorEffect={0}
+                  x={0}
+                  y={0}
+                />
+                <RNSVGCircle
+                  cx={407}
+                  cy={52.42363066039778}
+                  fill={
+                    Array [
+                      0,
+                      3875536895,
+                    ]
+                  }
+                  fillOpacity={1}
+                  fillRule={1}
+                  matrix={
+                    Array [
+                      1,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                    ]
+                  }
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  opacity={1}
+                  originX={0}
+                  originY={0}
+                  propList={
+                    Array [
+                      "fill",
+                      "stroke",
+                      "strokeWidth",
+                    ]
+                  }
+                  r="6"
+                  responsible={true}
+                  rotation={0}
+                  scaleX={1}
+                  scaleY={1}
+                  skewX={0}
+                  skewY={0}
+                  stroke={
+                    Array [
+                      0,
+                      4294944550,
+                    ]
+                  }
+                  strokeDasharray={null}
+                  strokeDashoffset={null}
+                  strokeLinecap={0}
+                  strokeLinejoin={0}
+                  strokeMiterlimit={4}
+                  strokeOpacity={1}
+                  strokeWidth="2"
+                  vectorEffect={0}
+                  x={0}
+                  y={0}
+                />
+                <RNSVGCircle
+                  cx={407}
+                  cy={52.42363066039778}
+                  fill={
+                    Array [
+                      0,
+                      4294967295,
+                    ]
+                  }
+                  fillOpacity={0}
+                  fillRule={1}
+                  matrix={
+                    Array [
+                      1,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                    ]
+                  }
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  opacity={1}
+                  originX={0}
+                  originY={0}
+                  propList={
+                    Array [
+                      "fill",
+                      "fillOpacity",
+                    ]
+                  }
+                  r="14"
+                  responsible={true}
+                  rotation={0}
+                  scaleX={1}
+                  scaleY={1}
+                  skewX={0}
+                  skewY={0}
+                  stroke={null}
+                  strokeDasharray={null}
+                  strokeDashoffset={null}
+                  strokeLinecap={0}
+                  strokeLinejoin={0}
+                  strokeMiterlimit={4}
+                  strokeOpacity={1}
+                  strokeWidth={1}
+                  vectorEffect={0}
+                  x={0}
+                  y={0}
+                />
+                <RNSVGCircle
+                  cx={521.3333333333333}
+                  cy={181}
+                  fill={
+                    Array [
+                      0,
+                      3875536895,
+                    ]
+                  }
+                  fillOpacity={1}
+                  fillRule={1}
+                  matrix={
+                    Array [
+                      1,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                    ]
+                  }
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  opacity={1}
+                  originX={0}
+                  originY={0}
+                  propList={
+                    Array [
+                      "fill",
+                      "stroke",
+                      "strokeWidth",
+                    ]
+                  }
+                  r="6"
+                  responsible={true}
+                  rotation={0}
+                  scaleX={1}
+                  scaleY={1}
+                  skewX={0}
+                  skewY={0}
+                  stroke={
+                    Array [
+                      0,
+                      4294944550,
+                    ]
+                  }
+                  strokeDasharray={null}
+                  strokeDashoffset={null}
+                  strokeLinecap={0}
+                  strokeLinejoin={0}
+                  strokeMiterlimit={4}
+                  strokeOpacity={1}
+                  strokeWidth="2"
+                  vectorEffect={0}
+                  x={0}
+                  y={0}
+                />
+                <RNSVGCircle
+                  cx={521.3333333333333}
+                  cy={181}
+                  fill={
+                    Array [
+                      0,
+                      4294967295,
+                    ]
+                  }
+                  fillOpacity={0}
+                  fillRule={1}
+                  matrix={
+                    Array [
+                      1,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                    ]
+                  }
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  opacity={1}
+                  originX={0}
+                  originY={0}
+                  propList={
+                    Array [
+                      "fill",
+                      "fillOpacity",
+                    ]
+                  }
+                  r="14"
+                  responsible={true}
+                  rotation={0}
+                  scaleX={1}
+                  scaleY={1}
+                  skewX={0}
+                  skewY={0}
+                  stroke={null}
+                  strokeDasharray={null}
+                  strokeDashoffset={null}
+                  strokeLinecap={0}
+                  strokeLinejoin={0}
+                  strokeMiterlimit={4}
+                  strokeOpacity={1}
+                  strokeWidth={1}
+                  vectorEffect={0}
+                  x={0}
+                  y={0}
+                />
+                <RNSVGCircle
+                  cx={635.6666666666666}
                   cy={16}
                   fill={
                     Array [
                       0,
-                      4294967295,
-                    ]
-                  }
-                  fillOpacity={0}
-                  fillRule={1}
-                  matrix={
-                    Array [
-                      1,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                    ]
-                  }
-                  onResponderGrant={[Function]}
-                  onResponderMove={[Function]}
-                  onResponderRelease={[Function]}
-                  onResponderTerminate={[Function]}
-                  onResponderTerminationRequest={[Function]}
-                  onStartShouldSetResponder={[Function]}
-                  opacity={1}
-                  originX={0}
-                  originY={0}
-                  propList={
-                    Array [
-                      "fill",
-                      "fillOpacity",
-                    ]
-                  }
-                  r="14"
-                  responsible={true}
-                  rotation={0}
-                  scaleX={1}
-                  scaleY={1}
-                  skewX={0}
-                  skewY={0}
-                  stroke={null}
-                  strokeDasharray={null}
-                  strokeDashoffset={null}
-                  strokeLinecap={0}
-                  strokeLinejoin={0}
-                  strokeMiterlimit={4}
-                  strokeOpacity={1}
-                  strokeWidth={1}
-                  vectorEffect={0}
-                  x={0}
-                  y={0}
-                />
-                <RNSVGCircle
-                  cx={178.33333333333331}
-                  cy={119.34015355114651}
-                  fill={
-                    Array [
-                      0,
-                      3875536895,
-                    ]
-                  }
-                  fillOpacity={1}
-                  fillRule={1}
-                  matrix={
-                    Array [
-                      1,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                    ]
-                  }
-                  onResponderGrant={[Function]}
-                  onResponderMove={[Function]}
-                  onResponderRelease={[Function]}
-                  onResponderTerminate={[Function]}
-                  onResponderTerminationRequest={[Function]}
-                  onStartShouldSetResponder={[Function]}
-                  opacity={1}
-                  originX={0}
-                  originY={0}
-                  propList={
-                    Array [
-                      "fill",
-                      "stroke",
-                      "strokeWidth",
-                    ]
-                  }
-                  r="6"
-                  responsible={true}
-                  rotation={0}
-                  scaleX={1}
-                  scaleY={1}
-                  skewX={0}
-                  skewY={0}
-                  stroke={
-                    Array [
-                      0,
-                      4294944550,
-                    ]
-                  }
-                  strokeDasharray={null}
-                  strokeDashoffset={null}
-                  strokeLinecap={0}
-                  strokeLinejoin={0}
-                  strokeMiterlimit={4}
-                  strokeOpacity={1}
-                  strokeWidth="2"
-                  vectorEffect={0}
-                  x={0}
-                  y={0}
-                />
-                <RNSVGCircle
-                  cx={178.33333333333331}
-                  cy={119.34015355114651}
-                  fill={
-                    Array [
-                      0,
-                      4294967295,
-                    ]
-                  }
-                  fillOpacity={0}
-                  fillRule={1}
-                  matrix={
-                    Array [
-                      1,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                    ]
-                  }
-                  onResponderGrant={[Function]}
-                  onResponderMove={[Function]}
-                  onResponderRelease={[Function]}
-                  onResponderTerminate={[Function]}
-                  onResponderTerminationRequest={[Function]}
-                  onStartShouldSetResponder={[Function]}
-                  opacity={1}
-                  originX={0}
-                  originY={0}
-                  propList={
-                    Array [
-                      "fill",
-                      "fillOpacity",
-                    ]
-                  }
-                  r="14"
-                  responsible={true}
-                  rotation={0}
-                  scaleX={1}
-                  scaleY={1}
-                  skewX={0}
-                  skewY={0}
-                  stroke={null}
-                  strokeDasharray={null}
-                  strokeDashoffset={null}
-                  strokeLinecap={0}
-                  strokeLinejoin={0}
-                  strokeMiterlimit={4}
-                  strokeOpacity={1}
-                  strokeWidth={1}
-                  vectorEffect={0}
-                  x={0}
-                  y={0}
-                />
-                <RNSVGCircle
-                  cx={292.66666666666663}
-                  cy={159.12869004174829}
-                  fill={
-                    Array [
-                      0,
-                      3875536895,
-                    ]
-                  }
-                  fillOpacity={1}
-                  fillRule={1}
-                  matrix={
-                    Array [
-                      1,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                    ]
-                  }
-                  onResponderGrant={[Function]}
-                  onResponderMove={[Function]}
-                  onResponderRelease={[Function]}
-                  onResponderTerminate={[Function]}
-                  onResponderTerminationRequest={[Function]}
-                  onStartShouldSetResponder={[Function]}
-                  opacity={1}
-                  originX={0}
-                  originY={0}
-                  propList={
-                    Array [
-                      "fill",
-                      "stroke",
-                      "strokeWidth",
-                    ]
-                  }
-                  r="6"
-                  responsible={true}
-                  rotation={0}
-                  scaleX={1}
-                  scaleY={1}
-                  skewX={0}
-                  skewY={0}
-                  stroke={
-                    Array [
-                      0,
-                      4294944550,
-                    ]
-                  }
-                  strokeDasharray={null}
-                  strokeDashoffset={null}
-                  strokeLinecap={0}
-                  strokeLinejoin={0}
-                  strokeMiterlimit={4}
-                  strokeOpacity={1}
-                  strokeWidth="2"
-                  vectorEffect={0}
-                  x={0}
-                  y={0}
-                />
-                <RNSVGCircle
-                  cx={292.66666666666663}
-                  cy={159.12869004174829}
-                  fill={
-                    Array [
-                      0,
-                      4294967295,
-                    ]
-                  }
-                  fillOpacity={0}
-                  fillRule={1}
-                  matrix={
-                    Array [
-                      1,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                    ]
-                  }
-                  onResponderGrant={[Function]}
-                  onResponderMove={[Function]}
-                  onResponderRelease={[Function]}
-                  onResponderTerminate={[Function]}
-                  onResponderTerminationRequest={[Function]}
-                  onStartShouldSetResponder={[Function]}
-                  opacity={1}
-                  originX={0}
-                  originY={0}
-                  propList={
-                    Array [
-                      "fill",
-                      "fillOpacity",
-                    ]
-                  }
-                  r="14"
-                  responsible={true}
-                  rotation={0}
-                  scaleX={1}
-                  scaleY={1}
-                  skewX={0}
-                  skewY={0}
-                  stroke={null}
-                  strokeDasharray={null}
-                  strokeDashoffset={null}
-                  strokeLinecap={0}
-                  strokeLinejoin={0}
-                  strokeMiterlimit={4}
-                  strokeOpacity={1}
-                  strokeWidth={1}
-                  vectorEffect={0}
-                  x={0}
-                  y={0}
-                />
-                <RNSVGCircle
-                  cx={407}
-                  cy={163.94911695058428}
-                  fill={
-                    Array [
-                      0,
-                      3875536895,
-                    ]
-                  }
-                  fillOpacity={1}
-                  fillRule={1}
-                  matrix={
-                    Array [
-                      1,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                    ]
-                  }
-                  onResponderGrant={[Function]}
-                  onResponderMove={[Function]}
-                  onResponderRelease={[Function]}
-                  onResponderTerminate={[Function]}
-                  onResponderTerminationRequest={[Function]}
-                  onStartShouldSetResponder={[Function]}
-                  opacity={1}
-                  originX={0}
-                  originY={0}
-                  propList={
-                    Array [
-                      "fill",
-                      "stroke",
-                      "strokeWidth",
-                    ]
-                  }
-                  r="6"
-                  responsible={true}
-                  rotation={0}
-                  scaleX={1}
-                  scaleY={1}
-                  skewX={0}
-                  skewY={0}
-                  stroke={
-                    Array [
-                      0,
-                      4294944550,
-                    ]
-                  }
-                  strokeDasharray={null}
-                  strokeDashoffset={null}
-                  strokeLinecap={0}
-                  strokeLinejoin={0}
-                  strokeMiterlimit={4}
-                  strokeOpacity={1}
-                  strokeWidth="2"
-                  vectorEffect={0}
-                  x={0}
-                  y={0}
-                />
-                <RNSVGCircle
-                  cx={407}
-                  cy={163.94911695058428}
-                  fill={
-                    Array [
-                      0,
-                      4294967295,
-                    ]
-                  }
-                  fillOpacity={0}
-                  fillRule={1}
-                  matrix={
-                    Array [
-                      1,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                    ]
-                  }
-                  onResponderGrant={[Function]}
-                  onResponderMove={[Function]}
-                  onResponderRelease={[Function]}
-                  onResponderTerminate={[Function]}
-                  onResponderTerminationRequest={[Function]}
-                  onStartShouldSetResponder={[Function]}
-                  opacity={1}
-                  originX={0}
-                  originY={0}
-                  propList={
-                    Array [
-                      "fill",
-                      "fillOpacity",
-                    ]
-                  }
-                  r="14"
-                  responsible={true}
-                  rotation={0}
-                  scaleX={1}
-                  scaleY={1}
-                  skewX={0}
-                  skewY={0}
-                  stroke={null}
-                  strokeDasharray={null}
-                  strokeDashoffset={null}
-                  strokeLinecap={0}
-                  strokeLinejoin={0}
-                  strokeMiterlimit={4}
-                  strokeOpacity={1}
-                  strokeWidth={1}
-                  vectorEffect={0}
-                  x={0}
-                  y={0}
-                />
-                <RNSVGCircle
-                  cx={521.3333333333333}
-                  cy={104.1363111139136}
-                  fill={
-                    Array [
-                      0,
-                      3875536895,
-                    ]
-                  }
-                  fillOpacity={1}
-                  fillRule={1}
-                  matrix={
-                    Array [
-                      1,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                    ]
-                  }
-                  onResponderGrant={[Function]}
-                  onResponderMove={[Function]}
-                  onResponderRelease={[Function]}
-                  onResponderTerminate={[Function]}
-                  onResponderTerminationRequest={[Function]}
-                  onStartShouldSetResponder={[Function]}
-                  opacity={1}
-                  originX={0}
-                  originY={0}
-                  propList={
-                    Array [
-                      "fill",
-                      "stroke",
-                      "strokeWidth",
-                    ]
-                  }
-                  r="6"
-                  responsible={true}
-                  rotation={0}
-                  scaleX={1}
-                  scaleY={1}
-                  skewX={0}
-                  skewY={0}
-                  stroke={
-                    Array [
-                      0,
-                      4294944550,
-                    ]
-                  }
-                  strokeDasharray={null}
-                  strokeDashoffset={null}
-                  strokeLinecap={0}
-                  strokeLinejoin={0}
-                  strokeMiterlimit={4}
-                  strokeOpacity={1}
-                  strokeWidth="2"
-                  vectorEffect={0}
-                  x={0}
-                  y={0}
-                />
-                <RNSVGCircle
-                  cx={521.3333333333333}
-                  cy={104.1363111139136}
-                  fill={
-                    Array [
-                      0,
-                      4294967295,
-                    ]
-                  }
-                  fillOpacity={0}
-                  fillRule={1}
-                  matrix={
-                    Array [
-                      1,
-                      0,
-                      0,
-                      1,
-                      0,
-                      0,
-                    ]
-                  }
-                  onResponderGrant={[Function]}
-                  onResponderMove={[Function]}
-                  onResponderRelease={[Function]}
-                  onResponderTerminate={[Function]}
-                  onResponderTerminationRequest={[Function]}
-                  onStartShouldSetResponder={[Function]}
-                  opacity={1}
-                  originX={0}
-                  originY={0}
-                  propList={
-                    Array [
-                      "fill",
-                      "fillOpacity",
-                    ]
-                  }
-                  r="14"
-                  responsible={true}
-                  rotation={0}
-                  scaleX={1}
-                  scaleY={1}
-                  skewX={0}
-                  skewY={0}
-                  stroke={null}
-                  strokeDasharray={null}
-                  strokeDashoffset={null}
-                  strokeLinecap={0}
-                  strokeLinejoin={0}
-                  strokeMiterlimit={4}
-                  strokeOpacity={1}
-                  strokeWidth={1}
-                  vectorEffect={0}
-                  x={0}
-                  y={0}
-                />
-                <RNSVGCircle
-                  cx={635.6666666666666}
-                  cy={181}
-                  fill={
-                    Array [
-                      0,
                       3875536895,
                     ]
                   }
@@ -4916,7 +4916,7 @@ exports[`<Home /> renders correctly 1`] = `
                 />
                 <RNSVGCircle
                   cx={635.6666666666666}
-                  cy={181}
+                  cy={16}
                   fill={
                     Array [
                       0,

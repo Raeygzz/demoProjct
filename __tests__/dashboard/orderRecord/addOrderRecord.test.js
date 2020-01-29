@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text,  } from 'react-native';
+import { Text, View  } from 'react-native';
 
 import AddOrderRecord from '../../../src/screens/dashboard/orderRecord/addOrderRecord';
 import globalStyle from '../../../src/components/styles/styles';
@@ -95,11 +95,39 @@ describe('<AddOrderRecord/>', () => {
   });
 
 
+  it('renders the View in design using (enzyme)shallow,expect,contains & (jest)toEqual', () => {
+    const wrapper = shallow(<AddOrderRecord />);
+    expect(wrapper.length).toEqual(1);
+    expect(wrapper.contains(
+      <View style={{ height: 12 }}>
+        <Text>&nbsp;</Text>
+      </View>)).toEqual(true);
+    });
+
+
   it('test image component using (enzyme)shallow,expect,find & (jest)toBeTruthy,toEqual', () => {
     const wrapper = shallow(<AddOrderRecord />);
     expect(wrapper).toBeTruthy();
     expect(wrapper.find('Image').length).toEqual(1);
     expect(wrapper.find("Image").prop("source")).toEqual(productImage);
   })
+
+
+  it('calls the addOrderRecordSubmit, cancelOrderRecordHandler methods & test onPress functionality along with tests this.props.navigation.navigate using (enzyme)shallow,instance,find,first,props,expect,exists, (React)forceUpdate, (jest)jest.spyOn,toHaveLength,toHaveBeenCalledWith', () => {
+    const wrapper = shallow(<AddOrderRecord navigation={navigation} />);
+    const instance = wrapper.instance();
+    const spy = jest.spyOn(instance, 'addOrderRecordSubmit');
+    const spy1 = jest.spyOn(instance, 'cancelOrderRecordHandler');
+
+    instance.forceUpdate();
+    wrapper.find('NormalButton').first().props().onItemPressed();
+    wrapper.find('InvertButton').first().props().onInvertItemPressed();
+
+    expect(wrapper.exists());
+    expect(spy.mock.calls).toHaveLength(1);
+    expect(navigation.navigate).toHaveBeenCalledWith("OrderRecord");
+    expect(spy1.mock.calls).toHaveLength(1);
+    expect(navigation.navigate).toHaveBeenCalledWith("OrderRecord");
+  });
 
 })
