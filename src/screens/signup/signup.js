@@ -5,6 +5,8 @@ import RupiText from "../../components/layouts/RupiText";
 import { NormalButton } from "../../components/layouts/Buttons";
 import RupiTextInput from "../../components/layouts/Forms/RupiTextInput";
 
+import * as api from '../../authentication/api/api';
+
 
 export default class Signup extends Component {
   constructor(props) {
@@ -27,7 +29,20 @@ export default class Signup extends Component {
 
 
   createAccountSubmit = () => {
-    this.props.navigation.navigate('DashboardBar');
+    let obj = JSON.stringify({
+      emailAddress: this.state.emailAddress,
+      password: this.state.password,
+      confirmPassword: this.state.confirmPassword
+    })
+
+    api.signup("POST", obj).then((res) => res.json()).then(response => {
+      if(response.status == 200) {
+        console.log('response ==> ', response);
+        this.props.navigation.navigate('DashboardBar');
+      }
+    }).catch(err => {
+      console.log('Error ==> ', err);
+    })
   }
 
 
